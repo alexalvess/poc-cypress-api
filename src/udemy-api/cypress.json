@@ -1,0 +1,23 @@
+{
+    "baseUrl": "https://udemy-course-api.azurewebsites.net/api",
+    "defaultUser": {
+        "name": "Test",
+        "cpf": "99999999999",
+        "birth_date": "2020-04-09T22:36:17.368Z",
+        "address": {
+            "zip_code": "99 999-999",
+            "number": "99 9 9999-9999",
+            "street": "St. Test",
+            "neighborhood": "Test",
+            "city": "Test",
+            "province": "Test",
+            "country": "Test"
+        },
+        "contacts": [
+            {
+              "contact_type": 1,
+              "description": "test@test.com"
+            }
+        ]
+    }
+}

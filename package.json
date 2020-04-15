@@ -1,0 +1,18 @@
+{
+  "name": "poc-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:api": "cypress open --project ./src/udemy-api",
+    "cy:ui": "cypress open --project ./src/dojo-ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.3.0",
+    "make-runnable": "^1.3.6",
+    "mongodb": "^3.5.5"
+  }
+}
